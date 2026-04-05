@@ -545,6 +545,17 @@ def admin_delete_user(user_id):
 
     return redirect(url_for('admin_users'))
 
+@app.route('/temp-setup-admin-2025')
+def temp_setup_admin():
+    admin = User.query.filter_by(email='admin').first()
+    if admin:
+        return 'Admin already exists!'
+    new_admin = User(name='admin', email='admin', is_verified=True)
+    new_admin.set_password('admin123')
+    db.session.add(new_admin)
+    db.session.commit()
+    return 'Admin user created! Username: admin, Password: admin123. DELETE THIS ROUTE NOW!'
+
 with app.app_context():
     db.create_all()
 
