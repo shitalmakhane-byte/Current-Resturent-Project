@@ -2,9 +2,9 @@
 
 A Flask-based restaurant management web app with cart, ordering, and admin panel.
 
-**Developer:** Shivam Kurunde | TYCSEA Student Project  
-**Live URL:** https://web-production-a117up.railway.app  
-**GitHub:** https://github.com/Shivamkurunde/Current-Resturent-Project
+**Developer:** Shital Makhane | Project Portfolio
+**Live URL:** https://web-production-86730.up.railway.app
+**GitHub Repo:** https://github.com/shitalmakhane-byte/Current-Resturent-Project
 
 ---
 
@@ -119,7 +119,7 @@ Copy `.env.example` to `.env` for local setup.
 
 ```bash
 # 1. Clone
-git clone https://github.com/Shivamkurunde/Current-Resturent-Project.git
+git clone https://github.com/shitalmakhane-byte/Current-Resturent-Project.git
 cd Current-Resturent-Project
 
 # 2. Create virtual environment
